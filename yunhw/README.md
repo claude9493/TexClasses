@@ -14,3 +14,13 @@ Note that there are default values for arguments `semester`, `name`, and `uid`.
     hwnum = 1
 ]{yunhw}
 ```
+## Suggestions
+Some of my habits
+1. Use `\section*{Question 1}` to make title for each question.
+2. Use enumerate environment for subquestions as below,
+```latex
+\begin{enumerate}[label=\textbf{(\alph*)}, align=left, leftmargin=*]
+    \item answer for Q1 (a)
+    \item answer for Q1 (b)
+\end{enumerate}
+```
