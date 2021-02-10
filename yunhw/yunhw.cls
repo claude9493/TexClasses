@@ -71,16 +71,6 @@
 \ExecuteOptionsX{courselabel, coursetitle, semester, name, uid, hwnum}
 \ProcessOptionsX%
 
-% \newcommand{\@courselabel}{{\em No course label specified}}
-% \newcommand{\@coursetitle}{{\em No course title specified}}
-%\newcommand{\@semester}{{\em Spring 2021}}
-\newcommand{\@hwnum}{{1}}
-% \def\@@name{ZHANG Yun}
-%\newcommand{\@name}{{ZHANG Yun}}
-%% \def\@@uid{3035802483}
-%\newcommand{\@uid}{{3035802483}}
-
-
 \AtBeginDocument{
     \fancyhead[C]{}
     \noindent
